@@ -12,6 +12,7 @@
             $this->call([
                 RoleTableSeeder::class, 
                 UserTableSeeder::class,
+                PostTableSeeder::class,
             ]);
         }
     }
